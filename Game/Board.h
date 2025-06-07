@@ -25,7 +25,7 @@ public:
     }
 
     // draws start board
-    // Прорисовка доски
+    // Прорисовка доски 
     int start_draw()
     {
         // Инициализация SDL

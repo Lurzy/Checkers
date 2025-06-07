@@ -21,7 +21,7 @@ public:
 
     vector<move_pos> find_best_turns(const bool color)
     {
-        // Очистка векторов ходов
+        // Очистка векторов ходов 
         next_move.clear();
         next_best_state.clear();
 

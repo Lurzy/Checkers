@@ -124,7 +124,7 @@ private:
         auto delay_ms = config("Bot", "BotDelayMS");
         // new thread for equal delay for each turn
         thread th(SDL_Delay, delay_ms);
-        // Определение лучших ходов
+        // Определение лучших ходов 
         auto turns = logic.find_best_turns(color);
         th.join();
         bool is_first = true;

@@ -45,7 +45,7 @@ public:
                     {
                         resp = Response::REPLAY;
                     }
-                    // Нажатие на ячейку поля
+                    // Нажатие на ячейку поля 
                     else if (xc >= 0 && xc < 8 && yc >= 0 && yc < 8)
                     {
                         resp = Response::CELL;

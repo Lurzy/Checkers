@@ -23,7 +23,7 @@ struct move_pos
     {
     }
 
-    // Сравнение ходов на равенство
+    // Сравнение ходов на равенство 
     bool operator==(const move_pos& other) const
     {
         return (x == other.x && y == other.y && x2 == other.x2 && y2 == other.y2);
